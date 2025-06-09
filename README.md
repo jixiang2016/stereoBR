@@ -1,7 +1,6 @@
-## Motion Blur Decomposition with Cross-shutter Guidance
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=jixiang2016/dualBR)  [Arxiv](http://arxiv.org/abs/2404.01120) | [Paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Ji_Motion_Blur_Decomposition_with_Cross-shutter_Guidance_CVPR_2024_paper.pdf) | [Supp](https://openaccess.thecvf.com/content/CVPR2024/supplemental/Ji_Motion_Blur_Decomposition_CVPR_2024_supplemental.pdf) | [Project page](https://jixiang2016.github.io/dualBR_site)
+## Moment Reenacting: Inverse Motion Degradation with Cross-shutter Guidance
 
-Xiang Ji, Haiyang Jiang, Yinqiang Zheng
+Xiang Ji, Guixu Lin, Zhengwei Yin, Jiancheng Zhao, and Yinqiang Zheng
 
 The University of Tokyo
 
@@ -9,7 +8,7 @@ The University of Tokyo
 This repository provides the official PyTorch implementation of the paper.
 
 #### TL;DR
-Inspired by the complementary exposure characteristics of a global shutter (GS) camera and a rolling shutter (RS) camera, we propose a dual Blur-RS setting to solve the motion ambiguity of blur decomposition. As shown in the Figure below, the RS view not only provides local details but also implicitly captures the temporal order of latent frames. Meanwhile, GS view could be exploited to mitigate the initial-state ambiguity from RS counterpart.
+This work proposes a unified framework to jointly address global shutter (GS) blur and rolling shutter (RS) distortion for reconstructing high-quality video frames under motion degradation. By introducing a novel dual-shutter setup that captures synchronized Blur-RS image pairs, the method leverages their complementary characteristics to resolve temporal and spatial ambiguities. To this end, we construct a triaxial imaging system to collect real-world aligned GS-RS pairs and high-speed ground truth frames. A dual-stream motion interpretation module and self-prompted reconstruction stage enable superior and generalizable video reconstruction under challenging motion scenarios.
 
 <br/>
 <!--
