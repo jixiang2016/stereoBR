@@ -11,9 +11,9 @@ This repository provides the official PyTorch implementation of the paper.
 This work proposes a unified framework to jointly address global shutter (GS) blur and rolling shutter (RS) distortion for reconstructing high-quality video frames under motion degradation. By introducing a novel dual-shutter setup that captures synchronized Blur-RS image pairs, the method leverages their complementary characteristics to resolve temporal and spatial ambiguities. To this end, we construct a triaxial imaging system to collect real-world aligned GS-RS pairs and high-speed ground truth frames. A dual-stream motion interpretation module and self-prompted reconstruction stage enable superior and generalizable video reconstruction under challenging motion scenarios.
 
 <br/>
-<!--
+
 <img width="800" alt="image" src="docs/img.png">
-!-->
+
  
 ## Dependencies
 1. Python and Pytorch
