@@ -35,7 +35,7 @@ pip install -r requirements.txt
 - Download the synthetic data [stereoRS]() for validating the stereo blur-RS configuration.
 - Download real captured [third-party-testset](https://drive.google.com/file/d/1mVgKw4JwJcsCOQtUgYJvEYVf_1vDNFjH/view?usp=drive_link) and [stereoBR-testset]().
 - Unzip them under a specified directory by yourself.
-- Please download checkpoints from this [link](https://drive.google.com/drive/folders/1VDj-TLQxNCm3eIgCt5C-dJbYPDNzVLDO?usp=sharing) and put them under root directory of this project.
+- Please download checkpoints from this [link](https://drive.google.com/drive/folders/1KjHD6GSX7BZuyNxqBF9ipSotIayk3sXL?usp=sharing) and put them under root directory of this project.
 
 ## Test
 To test model, please run the command below:
