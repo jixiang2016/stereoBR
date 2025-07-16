@@ -32,7 +32,7 @@ pip install -r requirements.txt
 
 ## Data and Pretrained Model
 - Download datasets [realBR](https://drive.google.com/file/d/1s9t6DHHfzB-o6pDhg4vqcgcFR6gdLxqj/view?usp=sharing) and synthetic data [GOPRO-VFI_copy](https://drive.google.com/file/d/1AaI1DD0SYECfL8GXFuCR6a4tZieRCMMe/view?usp=sharing) based on [GOPRO](https://drive.google.com/file/d/1rJTmM9_mLCNzBUUhYIGldBYgup279E_f/view?usp=sharing).  <!--   coming soon   -->
-- Download the synthetic data [stereoRS]() for validating the stereo blur-RS configuration.
+
 - Download real captured [third-party-testset](https://drive.google.com/file/d/1mVgKw4JwJcsCOQtUgYJvEYVf_1vDNFjH/view?usp=drive_link) and [stereoBR-testset]().
 - Unzip them under a specified directory by yourself.
 - Please download checkpoints from this [link](https://drive.google.com/drive/folders/1KjHD6GSX7BZuyNxqBF9ipSotIayk3sXL?usp=sharing) and put them under root directory of this project.
