@@ -35,8 +35,8 @@ pip install -r requirements.txt
 
 - Download real captured [third-party-testset](https://drive.google.com/file/d/1mVgKw4JwJcsCOQtUgYJvEYVf_1vDNFjH/view?usp=sharing) and [stereoBR-testset](https://drive.google.com/file/d/1EZxSj6Zwn6RhQMmt_ohRPDcCdnS7UYD6/view?usp=sharing).
 - Unzip them under a specified directory by yourself.
-- Please download dualBR checkpoints from this [link](https://drive.google.com/drive/folders/1KjHD6GSX7BZuyNxqBF9ipSotIayk3sXL?usp=sharing) and put them under root directory of this project.
-- Please download setreoBR checkpoints from this [link](https://drive.google.com/drive/folders/1KjHD6GSX7BZuyNxqBF9ipSotIayk3sXL?usp=sharing) and put them under root directory of this project.
+- Please download dualBR checkpoints from this [link](https://drive.google.com/drive/folders/1E4unNmsZjXeYWWIRijMkRKPWZyCTEW_s?usp=sharing) and put them under root directory of this project.
+- Please download setreoBR checkpoints from this [link](https://drive.google.com/drive/folders/1D3qct-ioGiGUXWmc25C7pBmyleXRvQ44?usp=sharing) and put them under root directory of this project.
 
 ## Test
 To test model, please run the command below:
